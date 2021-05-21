@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "autoname": "format:{image_1} / {image_2}",
+ "creation": "2021-04-29 12:47:33.539903",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image_1",
+  "image_2",
+  "compare_date",
+  "summarize"
+ ],
+ "fields": [
+  {
+   "fieldname": "image_1",
+   "fieldtype": "Link",
+   "label": "Image 1",
+   "options": "Daily Image"
+  },
+  {
+   "fieldname": "image_2",
+   "fieldtype": "Link",
+   "label": "Image 2",
+   "options": "Daily Image"
+  },
+  {
+   "fieldname": "compare_date",
+   "fieldtype": "Date",
+   "label": "Compare Date"
+  },
+  {
+   "fieldname": "summarize",
+   "fieldtype": "Text",
+   "label": "Summarize"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-04-29 12:47:33.539903",
+ "modified_by": "Administrator",
+ "module": "Planet Custom",
+ "name": "Compare",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "autoname": "format:{location}-{DD}/{MM}/{YYYY}",
+ "creation": "2021-04-29 12:44:20.096252",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "location",
+  "image_taken_date",
+  "image",
+  "summarize"
+ ],
+ "fields": [
+  {
+   "fieldname": "location",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Location",
+   "options": "Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "image_taken_date",
+   "fieldtype": "Date",
+   "label": "Image Taken Date"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "summarize",
+   "fieldtype": "Text",
+   "label": "Summarize"
+  }
+ ],
+ "image_field": "image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-04-29 12:44:20.096252",
+ "modified_by": "Administrator",
+ "module": "Planet Custom",
+ "name": "Daily Image",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
