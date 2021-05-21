@@ -101,7 +101,11 @@ app_license = "MIT"
 
 # Scheduled Tasks
 # ---------------
-
+scheduler_events = {
+	"hourly": [
+		"planet_custom.tasks.create_daily_image"
+	]
+}
 # scheduler_events = {
 # 	"all": [
 # 		"planet_custom.tasks.all"
